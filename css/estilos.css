@@ -1,0 +1,72 @@
+.logo{
+	width: auto;
+	height: 150px;
+}
+.titulo{
+	color: white;
+	font-size: 1.5rem;
+}
+
+.banner{
+	height: 150px;
+	background-image: url('../images/fabian-grohs-XMFZqrGyV-Q-unsplash.jpg');
+	background-size: cover;
+	background-position: center -100px;
+}
+
+.border{
+	border: 1px solid #d7d8da;
+}
+
+.border img{
+	height: auto;
+	width: 100px;
+}
+
+.footer{
+	background-color: #a5a5a7;
+	height: 250px;
+	color: #fff;
+	font-size: .8rem;
+}
+
+.footer p{
+	font-size: .7rem;
+}
+
+.footer h5{
+	font-weight: 800;
+	font-size: 16px;
+}
+
+.w-60{
+	width: 60%!important;
+}
+
+
+@media (min-width: 576px) {
+	.banner{
+		height: 200px;
+	}
+	.titulo{
+		color: white;
+		font-size: 4rem;
+	}
+	
+}
+
+@media (min-width: 768px) {
+	.banner{
+		height: 300px;
+	}
+}
+
+@media (min-width: 992px) {
+	.banner{
+		height: 400px;
+	}
+}
+
+@media (min-width: 1200px) {
+
+}
