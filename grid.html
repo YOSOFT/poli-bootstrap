@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Grid</title>
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+  <style>
+      @media (min-width:576px){body{ background-color: greenyellow;} h1::after{content: ' sm' }}
+      @media (min-width:768px){body{ background-color: violet;} h1::after{content: ' md' }}
+      @media (min-width:992px){body{ background-color: coral;} h1::after{content: ' lg' }}
+      @media (min-width:1200px){body{ background-color: hotpink;} h1::after{content: ' xl' }}
+
+  </style>
+</head>
+<body>
+  <h1>Contenedores</h1>
+  <div class="spinner-grow text-muted"></div>
+
+  <hr>
+  <div class="container bg-info">
+    <div class="row" style="height: 100vh">
+      <div class="col-sm-6 offset-sm-2 col-md-3 col-lg-6 bg-primary">100</div>
+      <div class="col-sm-6 offset-sm-2 col-md-3 col-lg-6 bg-secondary">100</div>
+      <div class="col-sm-6 offset-sm-2 col-md-3 col-lg-6 bg-white">100</div>
+      <div class="col-sm-6 offset-sm-2 col-md-3 col-lg-6 bg-dark">100</div>
+    </div>
+    <hr>
+    <div class="row" style="height: 100vh">
+      <div class="col bg-info">1</div>
+      <div class="col bg-danger">2</div>
+      <div class="col bg-warning">3</div>
+      <div class="col bg-dark">4</div>
+      <div class="col bg-info">5</div>
+      <div class="col bg-danger">6</div>
+      <div class="col bg-warning">7</div>     
+      <div class="col bg-dark">8</div>
+      <div class="col bg-info">9</div>
+      <div class="col bg-danger">10</div>
+      <div class="col bg-warning">11</div>
+      <div class="col bg-dark">12</div>
+    </div>
+    <div class="row" style="height: 100vh">
+        <div class="col bg-info">Auto</div>
+        <div class="col-6 bg-danger">Auto</div>
+        <div class="col-3 bg-warning">Auto</div>
+    </div>
+    <div class="row" style="height: 100vh">
+        <div class="col-sm bg-dark">Auto</div>
+        <div class="col-sm bg-danger">Auto</div>
+        <div class="col-sm bg-warning">Auto</div>
+    </div>
+    <div class="row" style="height: 100vh">
+      <div class="col-6 bg-success">
+        <div class="row">
+          <div class="col-sm bg-dark">Auto</div>
+          <div class="col-sm bg-danger">Auto</div>
+          <div class="col-sm bg-warning">Auto</div>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div class="container bg-danger">
+      <div class="row">
+        <div class="col-sm-6 col-md-10 col-lg-4 col-xl-8 bg-dark text-white">
+          <p>SM: 576px<br>MD: 768px<br>LG: 992px<br>XL 1200px</p>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div class="container bg-danger">
+      <div class="row " style="height: 300px">
+        <div class="col bg-primary align-self-start">1</div>
+        <div class="col bg-secondary align-self-center">2</div>
+        <div class="col bg-info">3</div>
+      </div>
+    </div>
+    <div class="container bg-warning ">
+      <div class="row justify-content-between" style="height: 300px">
+        <div class="col-4 bg-primary">1</div>
+        <div class="col-4 bg-secondary">2</div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
